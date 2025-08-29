@@ -1,0 +1,3856 @@
+{
+  "$type": "PersistedGameState",
+  "CharacterCreationCommands": [
+    {
+      "$type": "CharacterCreationCommand",
+      "Name": "[click to name]",
+      "Profession": "The Bright Young Thing",
+      "ActiveLegacyId": "brightyoungthing",
+      "EndingTriggeredId": null,
+      "RecipeExecutions": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib",
+        "workbytjobstart": 1,
+        "bytopenexplore": 1,
+        "explorelocationauctionhouse": 4,
+        "workbytjobend": 1,
+        "playerincreasedbid": 4,
+        "auctionsuccess": 3,
+        "workbytjobepilogue": 1,
+        "bytopenstudy": 1,
+        "bytopendream": 1,
+        "studyonthewhite": 1,
+        "despairrisk": 1,
+        "studyfivecreations": 1,
+        "despairwarning": 5,
+        "auctionbuy": 1,
+        "auctionfailureclear": 1,
+        "auctionfailure": 1,
+        "studyqueensoftherivers": 1
+      },
+      "DateTimeCreated": "2025-08-08T15:17:17.2662113+02:00",
+      "InProgressHistoryRecords": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+        "lastbook": "travellingatnight1"
+      },
+      "PreviousCharacterHistoryRecords": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+        "lastbook": "fivecreations",
+        "lastcult": "cultwinter_1",
+        "lastheadquarters": "hq.temporary",
+        "lastcharactername": "Glain",
+        "lasttool": "toollanternf",
+        "lastfollower": "violet_d",
+        "endingsseen": "deathofthebody;despairending;arrest;wintersacrifice;workvictory;visionsending;workvictoryb;minorgrailvictory;minorlanternvictory;majorlanternvictory;minorpalestvictory",
+        "lastdesire": "ascensionsensationa",
+        "lastsignificantpainting": "paintingmansus",
+        "lastpersonkilled": "neville_a"
+      },
+      "UniqueElementsManifested": [
+        "locationauctionhouse",
+        "locationcabaretclosed",
+        "locationcabaret",
+        "onthewhite",
+        "fivecreations",
+        "fragmentgrailg",
+        "orchidtransfigurations1latin",
+        "queensoftherivers",
+        "travellingatnight1"
+      ],
+      "CreatedInVersion": {
+        "$type": "SecretHistories.Entities.VersionNumber, SecretHistories.Main",
+        "Version": "2025.4.e.5"
+      },
+      "CurrentFocus": null
+    }
+  ],
+  "RootPopulationCommand": {
+    "$type": "RootPopulationCommand",
+    "Mutations": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib",
+      "II": 125
+    },
+    "Spheres": [
+      {
+        "$type": "SphereCreationCommand",
+        "OwnerSphereIdentifier": null,
+        "GoverningSphereSpec": {
+          "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+          "Label": "",
+          "ActionId": "",
+          "Description": "",
+          "Unique": false,
+          "Essential": {
+            "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+          },
+          "Required": {
+            "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+          },
+          "Forbidden": {
+            "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+          },
+          "IfAspectsPresent": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+          },
+          "Greedy": false,
+          "Consumes": false,
+          "Angels": [],
+          "FromPath": {
+            "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+            "Filter": null,
+            "Path": ""
+          },
+          "EnRouteSpherePath": {
+            "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+            "Filter": null,
+            "Path": "~/enroute"
+          },
+          "WindowsSpherePath": {
+            "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+            "Filter": null,
+            "Path": "~/windows"
+          },
+          "SphereType": "SecretHistories.Spheres.TabletopSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "AllowAnyToken": false,
+          "Id": "tabletop",
+          "Lever": ""
+        },
+        "Tokens": [
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -300.0,
+                "y": 230.0,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.7936064,
+                  "y": 0.6084316,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.00000012
+                },
+                "magnitude": 378.021149,
+                "sqrMagnitude": 142900.0
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": null,
+            "Payload": {
+              "$type": "SituationCreationCommand",
+              "LastSituationCreated": null,
+              "Id": "!work_0",
+              "VerbId": "work",
+              "OutputPath": null,
+              "CurrentRecipeId": "nullrecipe",
+              "FallbackRecipeId": "nullrecipe",
+              "Quantity": 1,
+              "StateIdentifier": 1,
+              "TimeRemaining": 0.0,
+              "Mutations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+              },
+              "IsOpen": false,
+              "Dominions": [
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "VerbThresholds",
+                  "Spheres": [
+                    {
+                      "$type": "SphereCreationCommand",
+                      "OwnerSphereIdentifier": null,
+                      "GoverningSphereSpec": {
+                        "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+                        "Label": "Work",
+                        "ActionId": "",
+                        "Description": "Something I can do; something I know; or something I am.",
+                        "Unique": false,
+                        "Essential": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Required": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main",
+                          "ability": 1,
+                          "benefactor": 1,
+                          "desire": 1,
+                          "ritual": 1,
+                          "job": 1
+                        },
+                        "Forbidden": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main",
+                          "reasonskill": 1
+                        },
+                        "IfAspectsPresent": {
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                        },
+                        "Greedy": false,
+                        "Consumes": false,
+                        "Angels": [],
+                        "FromPath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "EnRouteSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "WindowsSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "SphereType": "SecretHistories.UI.ThresholdSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AllowAnyToken": false,
+                        "Id": "work",
+                        "Lever": ""
+                      },
+                      "Tokens": [],
+                      "Shrouded": false,
+                      "PersistentSphereData": null
+                    }
+                  ]
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "RecipeThresholds",
+                  "Spheres": []
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Storage",
+                  "Spheres": []
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Output",
+                  "Spheres": []
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Notes",
+                  "Spheres": [
+                    {
+                      "$type": "SphereCreationCommand",
+                      "OwnerSphereIdentifier": null,
+                      "GoverningSphereSpec": {
+                        "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+                        "Label": "",
+                        "ActionId": "",
+                        "Description": "",
+                        "Unique": false,
+                        "Essential": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Required": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Forbidden": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "IfAspectsPresent": {
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                        },
+                        "Greedy": false,
+                        "Consumes": false,
+                        "Angels": [],
+                        "FromPath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "EnRouteSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "WindowsSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "SphereType": "Assets.Scripts.Application.Spheres.NotesSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AllowAnyToken": false,
+                        "Id": "notessphere",
+                        "Lever": ""
+                      },
+                      "Tokens": [
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": -210.0,
+                              "z": 0.0,
+                              "normalized": {
+                                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                                "x": 0.0,
+                                "y": -1.0,
+                                "z": 0.0,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 1.0
+                              },
+                              "magnitude": 210.0,
+                              "sqrMagnitude": 44100.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!work_0/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_52",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "Work",
+                              "tlg.notes.description": "Earn a living, or practice the invisible arts.",
+                              "tlg.notes.emphasislevel": "-1"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        }
+                      ],
+                      "Shrouded": false,
+                      "PersistentSphereData": null
+                    }
+                  ]
+                }
+              ],
+              "HasGhostNote": false,
+              "CommandQueue": []
+            },
+            "PlacementAlreadyChronicled": false,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 230.0,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.0
+                },
+                "magnitude": 230.0,
+                "sqrMagnitude": 52900.0
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": null,
+            "Payload": {
+              "$type": "ElementStackCreationCommand",
+              "Id": "!health_3",
+              "EntityId": "health",
+              "Quantity": 3,
+              "Mutations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+              },
+              "Illuminations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+              },
+              "Defunct": false,
+              "IsShrouded": false,
+              "LifetimeRemaining": 0.0,
+              "Dominions": []
+            },
+            "PlacementAlreadyChronicled": false,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -315.0,
+                "y": -230.0,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.807625949,
+                  "y": -0.589695156,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.0
+                },
+                "magnitude": 390.032043,
+                "sqrMagnitude": 152125.0
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": null,
+            "Payload": {
+              "$type": "DropzoneCreationCommand",
+              "Id": "!dropzone_Situation",
+              "EntityId": "Situation",
+              "Quantity": 1,
+              "Dominions": [
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Unknown",
+                  "Spheres": [
+                    {
+                      "$type": "SphereCreationCommand",
+                      "OwnerSphereIdentifier": null,
+                      "GoverningSphereSpec": {
+                        "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+                        "Label": "",
+                        "ActionId": "",
+                        "Description": "",
+                        "Unique": false,
+                        "Essential": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Required": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Forbidden": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "IfAspectsPresent": {
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                        },
+                        "Greedy": false,
+                        "Consumes": false,
+                        "Angels": [],
+                        "FromPath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "EnRouteSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "WindowsSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "SphereType": "SecretHistories.Spheres.BubbleSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AllowAnyToken": false,
+                        "Id": "dropzone_situationbubble",
+                        "Lever": ""
+                      },
+                      "Tokens": [],
+                      "Shrouded": false,
+                      "PersistentSphereData": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "PlacementAlreadyChronicled": false,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -187.5,
+                "y": 57.5,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.9560542,
+                  "y": 0.293189943,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.0
+                },
+                "magnitude": 196.118591,
+                "sqrMagnitude": 38462.5
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -150.0,
+                "y": 57.5,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.933746159,
+                  "y": 0.357936025,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.00000012
+                },
+                "magnitude": 160.643234,
+                "sqrMagnitude": 25806.25
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "Payload": {
+              "$type": "DropzoneCreationCommand",
+              "Id": "!dropzone_ElementStack",
+              "EntityId": "ElementStack",
+              "Quantity": 1,
+              "Dominions": [
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Unknown",
+                  "Spheres": [
+                    {
+                      "$type": "SphereCreationCommand",
+                      "OwnerSphereIdentifier": null,
+                      "GoverningSphereSpec": {
+                        "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+                        "Label": "",
+                        "ActionId": "",
+                        "Description": "",
+                        "Unique": false,
+                        "Essential": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Required": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Forbidden": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "IfAspectsPresent": {
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                        },
+                        "Greedy": false,
+                        "Consumes": false,
+                        "Angels": [],
+                        "FromPath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "EnRouteSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "WindowsSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "SphereType": "SecretHistories.Spheres.BubbleSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AllowAnyToken": false,
+                        "Id": "dropzone_elementstackbubble",
+                        "Lever": ""
+                      },
+                      "Tokens": [],
+                      "Shrouded": false,
+                      "PersistentSphereData": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "PlacementAlreadyChronicled": false,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -150.0,
+                "y": 57.5,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.933746159,
+                  "y": 0.357936025,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.00000012
+                },
+                "magnitude": 160.643234,
+                "sqrMagnitude": 25806.25
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": null,
+            "Payload": {
+              "$type": "ElementStackCreationCommand",
+              "Id": "!locationcabaret_13",
+              "EntityId": "locationcabaret",
+              "Quantity": 1,
+              "Mutations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+              },
+              "Illuminations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+              },
+              "Defunct": false,
+              "IsShrouded": false,
+              "LifetimeRemaining": 0.0,
+              "Dominions": []
+            },
+            "PlacementAlreadyChronicled": true,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -450.0,
+                "y": 230.0,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.8904347,
+                  "y": 0.455111057,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.0
+                },
+                "magnitude": 505.371155,
+                "sqrMagnitude": 255400.0
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -450.0,
+                "y": -230.0,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.8904347,
+                  "y": -0.455111057,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.0
+                },
+                "magnitude": 505.371155,
+                "sqrMagnitude": 255400.0
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "Payload": {
+              "$type": "SituationCreationCommand",
+              "LastSituationCreated": null,
+              "Id": "!explore_8",
+              "VerbId": "explore",
+              "OutputPath": "",
+              "CurrentRecipeId": "nullrecipe",
+              "FallbackRecipeId": "nullrecipe",
+              "Quantity": 1,
+              "StateIdentifier": 1,
+              "TimeRemaining": 0.0,
+              "Mutations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+              },
+              "IsOpen": false,
+              "Dominions": [
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "VerbThresholds",
+                  "Spheres": [
+                    {
+                      "$type": "SphereCreationCommand",
+                      "OwnerSphereIdentifier": null,
+                      "GoverningSphereSpec": {
+                        "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+                        "Label": "Explore",
+                        "ActionId": "",
+                        "Description": "A place; a person; a location; a secret.",
+                        "Unique": false,
+                        "Essential": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Required": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main",
+                          "follower": 1,
+                          "location": 1,
+                          "health": 1,
+                          "ghoul.hunger": 1,
+                          "secrethistories": 1
+                        },
+                        "Forbidden": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main",
+                          "hireling": 1
+                        },
+                        "IfAspectsPresent": {
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                        },
+                        "Greedy": false,
+                        "Consumes": false,
+                        "Angels": [],
+                        "FromPath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "EnRouteSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "WindowsSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "SphereType": "SecretHistories.UI.ThresholdSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AllowAnyToken": false,
+                        "Id": "explore",
+                        "Lever": ""
+                      },
+                      "Tokens": [],
+                      "Shrouded": false,
+                      "PersistentSphereData": null
+                    }
+                  ]
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "RecipeThresholds",
+                  "Spheres": []
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Storage",
+                  "Spheres": []
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Output",
+                  "Spheres": []
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Notes",
+                  "Spheres": [
+                    {
+                      "$type": "SphereCreationCommand",
+                      "OwnerSphereIdentifier": null,
+                      "GoverningSphereSpec": {
+                        "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+                        "Label": "",
+                        "ActionId": "",
+                        "Description": "",
+                        "Unique": false,
+                        "Essential": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Required": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Forbidden": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "IfAspectsPresent": {
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                        },
+                        "Greedy": false,
+                        "Consumes": false,
+                        "Angels": [],
+                        "FromPath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "EnRouteSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "WindowsSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "SphereType": "Assets.Scripts.Application.Spheres.NotesSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AllowAnyToken": false,
+                        "Id": "notessphere",
+                        "Lever": ""
+                      },
+                      "Tokens": [
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!explore_8/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_120",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "Explore",
+                              "tlg.notes.description": "Explore the city with Health or Followers; explore locations; or investigate the possibilities of lore. Exploration is often unpredictable.",
+                              "tlg.notes.emphasislevel": "-1"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        }
+                      ],
+                      "Shrouded": false,
+                      "PersistentSphereData": null
+                    }
+                  ]
+                }
+              ],
+              "HasGhostNote": false,
+              "CommandQueue": []
+            },
+            "PlacementAlreadyChronicled": false,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -300.0,
+                "y": -230.0,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.7936064,
+                  "y": -0.6084316,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.00000012
+                },
+                "magnitude": 378.021149,
+                "sqrMagnitude": 142900.0
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": null,
+            "Payload": {
+              "$type": "SituationCreationCommand",
+              "LastSituationCreated": null,
+              "Id": "!study_63",
+              "VerbId": "study",
+              "OutputPath": "",
+              "CurrentRecipeId": "studytravellingatnight1",
+              "FallbackRecipeId": "studytravellingatnight1",
+              "Quantity": 1,
+              "StateIdentifier": 3,
+              "TimeRemaining": 2.0,
+              "Mutations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+              },
+              "IsOpen": true,
+              "Dominions": [
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "VerbThresholds",
+                  "Spheres": []
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "RecipeThresholds",
+                  "Spheres": []
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Storage",
+                  "Spheres": [
+                    {
+                      "$type": "SphereCreationCommand",
+                      "OwnerSphereIdentifier": null,
+                      "GoverningSphereSpec": {
+                        "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+                        "Label": "",
+                        "ActionId": "",
+                        "Description": "",
+                        "Unique": false,
+                        "Essential": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Required": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Forbidden": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "IfAspectsPresent": {
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                        },
+                        "Greedy": false,
+                        "Consumes": false,
+                        "Angels": [],
+                        "FromPath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "EnRouteSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "WindowsSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "SphereType": "SituationStorageSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AllowAnyToken": false,
+                        "Id": "situationstoragesphere",
+                        "Lever": ""
+                      },
+                      "Tokens": [
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": -4.0,
+                              "z": 0.0,
+                              "normalized": {
+                                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                                "x": 0.0,
+                                "y": -1.0,
+                                "z": 0.0,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 1.0
+                              },
+                              "magnitude": 4.0,
+                              "sqrMagnitude": 16.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!study_63/situationstoragesphere"
+                            }
+                          },
+                          "HomeLocation": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 150.0,
+                              "y": 57.5,
+                              "z": 0.0,
+                              "normalized": {
+                                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                                "x": 0.933746159,
+                                "y": 0.357936025,
+                                "z": 0.0,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 1.00000012
+                              },
+                              "magnitude": 160.643234,
+                              "sqrMagnitude": 25806.25
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop"
+                            }
+                          },
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!travellingatnight1_20",
+                            "EntityId": "travellingatnight1",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": true,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        }
+                      ],
+                      "Shrouded": false,
+                      "PersistentSphereData": null
+                    }
+                  ]
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Output",
+                  "Spheres": []
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Notes",
+                  "Spheres": [
+                    {
+                      "$type": "SphereCreationCommand",
+                      "OwnerSphereIdentifier": null,
+                      "GoverningSphereSpec": {
+                        "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+                        "Label": "",
+                        "ActionId": "",
+                        "Description": "",
+                        "Unique": false,
+                        "Essential": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Required": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Forbidden": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "IfAspectsPresent": {
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                        },
+                        "Greedy": false,
+                        "Consumes": false,
+                        "Angels": [],
+                        "FromPath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "EnRouteSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "WindowsSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "SphereType": "Assets.Scripts.Application.Spheres.NotesSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AllowAnyToken": false,
+                        "Id": "notessphere",
+                        "Lever": ""
+                      },
+                      "Tokens": [
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!study_63/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_122",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "Read this volume of Travelling at Night",
+                              "tlg.notes.description": "'The Wood lies outside the walls of the Mansus. As any student of Histories knows, the Mansus has no walls.'",
+                              "tlg.notes.emphasislevel": "0"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        }
+                      ],
+                      "Shrouded": false,
+                      "PersistentSphereData": null
+                    }
+                  ]
+                }
+              ],
+              "HasGhostNote": true,
+              "CommandQueue": []
+            },
+            "PlacementAlreadyChronicled": false,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -450.0,
+                "y": -230.0,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.8904347,
+                  "y": -0.455111057,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.0
+                },
+                "magnitude": 505.371155,
+                "sqrMagnitude": 255400.0
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": null,
+            "Payload": {
+              "$type": "SituationCreationCommand",
+              "LastSituationCreated": null,
+              "Id": "!dream_69",
+              "VerbId": "dream",
+              "OutputPath": "",
+              "CurrentRecipeId": "nullrecipe",
+              "FallbackRecipeId": "nullrecipe",
+              "Quantity": 1,
+              "StateIdentifier": 1,
+              "TimeRemaining": 0.0,
+              "Mutations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+              },
+              "IsOpen": false,
+              "Dominions": [
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "VerbThresholds",
+                  "Spheres": [
+                    {
+                      "$type": "SphereCreationCommand",
+                      "OwnerSphereIdentifier": null,
+                      "GoverningSphereSpec": {
+                        "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+                        "Label": "Dream",
+                        "ActionId": "",
+                        "Description": "A direction for my dreams; or a trouble to recover from.",
+                        "Unique": false,
+                        "Essential": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Required": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main",
+                          "ability": 1,
+                          "funds": 1,
+                          "way": 1,
+                          "desire": 1,
+                          "illhealth": 1
+                        },
+                        "Forbidden": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "IfAspectsPresent": {
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                        },
+                        "Greedy": false,
+                        "Consumes": false,
+                        "Angels": [],
+                        "FromPath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "EnRouteSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "WindowsSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "SphereType": "SecretHistories.UI.ThresholdSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AllowAnyToken": false,
+                        "Id": "dream",
+                        "Lever": ""
+                      },
+                      "Tokens": [],
+                      "Shrouded": false,
+                      "PersistentSphereData": null
+                    }
+                  ]
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "RecipeThresholds",
+                  "Spheres": []
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Storage",
+                  "Spheres": []
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Output",
+                  "Spheres": []
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Notes",
+                  "Spheres": [
+                    {
+                      "$type": "SphereCreationCommand",
+                      "OwnerSphereIdentifier": null,
+                      "GoverningSphereSpec": {
+                        "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+                        "Label": "",
+                        "ActionId": "",
+                        "Description": "",
+                        "Unique": false,
+                        "Essential": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Required": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Forbidden": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "IfAspectsPresent": {
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                        },
+                        "Greedy": false,
+                        "Consumes": false,
+                        "Angels": [],
+                        "FromPath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "EnRouteSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "WindowsSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "SphereType": "Assets.Scripts.Application.Spheres.NotesSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AllowAnyToken": false,
+                        "Id": "notessphere",
+                        "Lever": ""
+                      },
+                      "Tokens": [
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": -210.0,
+                              "z": 0.0,
+                              "normalized": {
+                                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                                "x": 0.0,
+                                "y": -1.0,
+                                "z": 0.0,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 1.0
+                              },
+                              "magnitude": 210.0,
+                              "sqrMagnitude": 44100.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!dream_69/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_90",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "Dream",
+                              "tlg.notes.description": "Rest; reconsider your priorities; or risk yourself in exploration of the kingdoms of sleep.",
+                              "tlg.notes.emphasislevel": "-1"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        }
+                      ],
+                      "Shrouded": false,
+                      "PersistentSphereData": null
+                    }
+                  ]
+                }
+              ],
+              "HasGhostNote": false,
+              "CommandQueue": []
+            },
+            "PlacementAlreadyChronicled": false,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -300.0,
+                "y": 57.5,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.982123,
+                  "y": 0.188240245,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.0
+                },
+                "magnitude": 305.460724,
+                "sqrMagnitude": 93306.25
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": null,
+            "Payload": {
+              "$type": "ElementStackCreationCommand",
+              "Id": "!legacydiarylastcharacter_66",
+              "EntityId": "legacydiarylastcharacter",
+              "Quantity": 1,
+              "Mutations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+              },
+              "Illuminations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+              },
+              "Defunct": false,
+              "IsShrouded": false,
+              "LifetimeRemaining": 0.0,
+              "Dominions": []
+            },
+            "PlacementAlreadyChronicled": true,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -150.0,
+                "y": -230.0,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.546267748,
+                  "y": -0.8376106,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.0
+                },
+                "magnitude": 274.5906,
+                "sqrMagnitude": 75400.0
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": null,
+            "Payload": {
+              "$type": "SituationCreationCommand",
+              "LastSituationCreated": null,
+              "Id": "!despair_76",
+              "VerbId": "despair",
+              "OutputPath": "",
+              "CurrentRecipeId": "despairwarning",
+              "FallbackRecipeId": "despairactive",
+              "Quantity": 1,
+              "StateIdentifier": 3,
+              "TimeRemaining": 6.1,
+              "Mutations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+              },
+              "IsOpen": false,
+              "Dominions": [
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "VerbThresholds",
+                  "Spheres": []
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "RecipeThresholds",
+                  "Spheres": [
+                    {
+                      "$type": "SphereCreationCommand",
+                      "OwnerSphereIdentifier": null,
+                      "GoverningSphereSpec": {
+                        "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+                        "Label": "Thoughts",
+                        "ActionId": "",
+                        "Description": "",
+                        "Unique": false,
+                        "Essential": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Required": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main",
+                          "contentment": 1,
+                          "inducesdespair": 1
+                        },
+                        "Forbidden": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "IfAspectsPresent": {
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                        },
+                        "Greedy": true,
+                        "Consumes": false,
+                        "Angels": [],
+                        "FromPath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "EnRouteSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "WindowsSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "SphereType": "SecretHistories.UI.ThresholdSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AllowAnyToken": false,
+                        "Id": "thoughts",
+                        "Lever": ""
+                      },
+                      "Tokens": [],
+                      "Shrouded": false,
+                      "PersistentSphereData": null
+                    }
+                  ]
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Storage",
+                  "Spheres": [
+                    {
+                      "$type": "SphereCreationCommand",
+                      "OwnerSphereIdentifier": null,
+                      "GoverningSphereSpec": {
+                        "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+                        "Label": "",
+                        "ActionId": "",
+                        "Description": "",
+                        "Unique": false,
+                        "Essential": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Required": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Forbidden": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "IfAspectsPresent": {
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                        },
+                        "Greedy": false,
+                        "Consumes": false,
+                        "Angels": [],
+                        "FromPath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "EnRouteSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "WindowsSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "SphereType": "SituationStorageSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AllowAnyToken": false,
+                        "Id": "situationstoragesphere",
+                        "Lever": ""
+                      },
+                      "Tokens": [
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": -4.0,
+                              "z": 0.0,
+                              "normalized": {
+                                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                                "x": 0.0,
+                                "y": -1.0,
+                                "z": 0.0,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 1.0
+                              },
+                              "magnitude": 4.0,
+                              "sqrMagnitude": 16.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/situationstoragesphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!influencewinter_74",
+                            "EntityId": "dread",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 179.88,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        },
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 45.0,
+                              "y": -4.0,
+                              "z": 0.0,
+                              "normalized": {
+                                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                                "x": 0.9960726,
+                                "y": -0.08853979,
+                                "z": 0.0,
+                                "normalized": {
+                                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                                  "x": 0.99607265,
+                                  "y": -0.0885397941,
+                                  "z": 0.0,
+                                  "magnitude": 1.0,
+                                  "sqrMagnitude": 1.0
+                                },
+                                "magnitude": 0.99999994,
+                                "sqrMagnitude": 0.9999999
+                              },
+                              "magnitude": 45.17743,
+                              "sqrMagnitude": 2041.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/situationstoragesphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!dread_83",
+                            "EntityId": "dread",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 179.19,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        }
+                      ],
+                      "Shrouded": false,
+                      "PersistentSphereData": null
+                    }
+                  ]
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Output",
+                  "Spheres": []
+                },
+                {
+                  "$type": "PopulateDominionCommand",
+                  "Identifier": "Notes",
+                  "Spheres": [
+                    {
+                      "$type": "SphereCreationCommand",
+                      "OwnerSphereIdentifier": null,
+                      "GoverningSphereSpec": {
+                        "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+                        "Label": "",
+                        "ActionId": "",
+                        "Description": "",
+                        "Unique": false,
+                        "Essential": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Required": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "Forbidden": {
+                          "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+                        },
+                        "IfAspectsPresent": {
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                        },
+                        "Greedy": false,
+                        "Consumes": false,
+                        "Angels": [],
+                        "FromPath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "EnRouteSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "WindowsSpherePath": {
+                          "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                          "Filter": null,
+                          "Path": ""
+                        },
+                        "SphereType": "Assets.Scripts.Application.Spheres.NotesSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AllowAnyToken": false,
+                        "Id": "notessphere",
+                        "Lever": ""
+                      },
+                      "Tokens": [
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": -210.0,
+                              "z": 0.0,
+                              "normalized": {
+                                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                                "x": 0.0,
+                                "y": -1.0,
+                                "z": 0.0,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 1.0
+                              },
+                              "magnitude": 210.0,
+                              "sqrMagnitude": 44100.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_77",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "Bleak Thoughts",
+                              "tlg.notes.description": "Dark days. I must be careful not to let doubts creep in. [Dread may provoke full-fledged Despair.]",
+                              "tlg.notes.emphasislevel": "0"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        },
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_82",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "DESPAIR",
+                              "tlg.notes.description": "Despair is the wolf that devours thought. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+                              "tlg.notes.emphasislevel": "0"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        },
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_86",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "DESPAIR",
+                              "tlg.notes.description": "Despair pads close at my heels. The world is leached of light. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+                              "tlg.notes.emphasislevel": "0"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        },
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_88",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "DESPAIR",
+                              "tlg.notes.description": "Despair is the wolf that devours thought. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+                              "tlg.notes.emphasislevel": "0"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        },
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_89",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "DESPAIR",
+                              "tlg.notes.description": "Despair pads close at my heels. The world is leached of light. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+                              "tlg.notes.emphasislevel": "0"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        },
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_93",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "DESPAIR",
+                              "tlg.notes.description": "Despair is the wolf that devours thought. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+                              "tlg.notes.emphasislevel": "0"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        },
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_94",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "DESPAIR",
+                              "tlg.notes.description": "Despair pads close at my heels. The world is leached of light. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+                              "tlg.notes.emphasislevel": "0"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        },
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_102",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "DESPAIR",
+                              "tlg.notes.description": "Despair is the wolf that devours thought. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+                              "tlg.notes.emphasislevel": "0"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        },
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_103",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "DESPAIR",
+                              "tlg.notes.description": "Despair pads close at my heels. The world is leached of light. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+                              "tlg.notes.emphasislevel": "0"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        },
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_109",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "DESPAIR",
+                              "tlg.notes.description": "Despair is the wolf that devours thought. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+                              "tlg.notes.emphasislevel": "0"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        },
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_110",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "DESPAIR",
+                              "tlg.notes.description": "Despair pads close at my heels. The world is leached of light. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+                              "tlg.notes.emphasislevel": "0"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        },
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_123",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "DESPAIR",
+                              "tlg.notes.description": "Despair is the wolf that devours thought. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+                              "tlg.notes.emphasislevel": "0"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        },
+                        {
+                          "$type": "TokenCreationCommand",
+                          "Location": {
+                            "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                            "LocalPosition": {
+                              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "AtSpherePath": {
+                              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                              "Filter": null,
+                              "Path": "~/tabletop!despair_76/notessphere"
+                            }
+                          },
+                          "HomeLocation": null,
+                          "Payload": {
+                            "$type": "ElementStackCreationCommand",
+                            "Id": "!tlg.note_124",
+                            "EntityId": "tlg.note",
+                            "Quantity": 1,
+                            "Mutations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                            },
+                            "Illuminations": {
+                              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+                              "tlg.notes.title": "DESPAIR",
+                              "tlg.notes.description": "Despair pads close at my heels. The world is leached of light. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+                              "tlg.notes.emphasislevel": "0"
+                            },
+                            "Defunct": false,
+                            "IsShrouded": false,
+                            "LifetimeRemaining": 0.0,
+                            "Dominions": []
+                          },
+                          "PlacementAlreadyChronicled": false,
+                          "Defunct": false,
+                          "CurrentState": {
+                            "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+                          }
+                        }
+                      ],
+                      "Shrouded": false,
+                      "PersistentSphereData": null
+                    }
+                  ]
+                }
+              ],
+              "HasGhostNote": false,
+              "CommandQueue": []
+            },
+            "PlacementAlreadyChronicled": false,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 57.5,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.0
+                },
+                "magnitude": 57.5,
+                "sqrMagnitude": 3306.25
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": null,
+            "Payload": {
+              "$type": "ElementStackCreationCommand",
+              "Id": "!fragmentwinter_78",
+              "EntityId": "fragmentwinter",
+              "Quantity": 1,
+              "Mutations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+              },
+              "Illuminations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+              },
+              "Defunct": false,
+              "IsShrouded": false,
+              "LifetimeRemaining": 0.0,
+              "Dominions": []
+            },
+            "PlacementAlreadyChronicled": true,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -75.0,
+                "y": 57.5,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.7936064,
+                  "y": 0.6084316,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.00000012
+                },
+                "magnitude": 94.50529,
+                "sqrMagnitude": 8931.25
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": null,
+            "Payload": {
+              "$type": "ElementStackCreationCommand",
+              "Id": "!fragmentgrailg_84",
+              "EntityId": "fragmentgrailg",
+              "Quantity": 1,
+              "Mutations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+              },
+              "Illuminations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+              },
+              "Defunct": false,
+              "IsShrouded": false,
+              "LifetimeRemaining": 0.0,
+              "Dominions": []
+            },
+            "PlacementAlreadyChronicled": true,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 75.0,
+                "y": 57.5,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.7936064,
+                  "y": 0.6084316,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.00000012
+                },
+                "magnitude": 94.50529,
+                "sqrMagnitude": 8931.25
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": null,
+            "Payload": {
+              "$type": "ElementStackCreationCommand",
+              "Id": "!passion_73",
+              "EntityId": "passion",
+              "Quantity": 1,
+              "Mutations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+              },
+              "Illuminations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+              },
+              "Defunct": false,
+              "IsShrouded": false,
+              "LifetimeRemaining": 0.0,
+              "Dominions": []
+            },
+            "PlacementAlreadyChronicled": true,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -225.0,
+                "y": 57.5,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.9688628,
+                  "y": 0.247598261,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 0.99999994
+                },
+                "magnitude": 232.231033,
+                "sqrMagnitude": 53931.25
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": null,
+            "Payload": {
+              "$type": "ElementStackCreationCommand",
+              "Id": "!funds_115",
+              "EntityId": "funds",
+              "Quantity": 21,
+              "Mutations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+              },
+              "Illuminations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+              },
+              "Defunct": false,
+              "IsShrouded": false,
+              "LifetimeRemaining": 0.0,
+              "Dominions": []
+            },
+            "PlacementAlreadyChronicled": true,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -450.0,
+                "y": 57.5,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.991935,
+                  "y": 0.126747251,
+                  "z": 0.0,
+                  "normalized": {
+                    "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                    "x": -0.9919351,
+                    "y": 0.126747265,
+                    "z": 0.0,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 1.00000012
+                  },
+                  "magnitude": 0.99999994,
+                  "sqrMagnitude": 0.99999994
+                },
+                "magnitude": 453.658752,
+                "sqrMagnitude": 205806.25
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -450.0,
+                "y": 57.5,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": -0.991935,
+                  "y": 0.126747251,
+                  "z": 0.0,
+                  "normalized": {
+                    "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                    "x": -0.9919351,
+                    "y": 0.126747265,
+                    "z": 0.0,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 1.00000012
+                  },
+                  "magnitude": 0.99999994,
+                  "sqrMagnitude": 0.99999994
+                },
+                "magnitude": 453.658752,
+                "sqrMagnitude": 205806.25
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "Payload": {
+              "$type": "ElementStackCreationCommand",
+              "Id": "!locationauctionhouse_12",
+              "EntityId": "locationauctionhouse",
+              "Quantity": 1,
+              "Mutations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+              },
+              "Illuminations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+              },
+              "Defunct": false,
+              "IsShrouded": false,
+              "LifetimeRemaining": 0.0,
+              "Dominions": []
+            },
+            "PlacementAlreadyChronicled": true,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.TokenStates.TravelledToSphere, SecretHistories.Main"
+            }
+          },
+          {
+            "$type": "TokenCreationCommand",
+            "Location": {
+              "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+              "LocalPosition": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 225.0,
+                "y": 57.5,
+                "z": 0.0,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.9688628,
+                  "y": 0.247598261,
+                  "z": 0.0,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 0.99999994
+                },
+                "magnitude": 232.231033,
+                "sqrMagnitude": 53931.25
+              },
+              "AtSpherePath": {
+                "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                "Filter": null,
+                "Path": "~/tabletop"
+              }
+            },
+            "HomeLocation": null,
+            "Payload": {
+              "$type": "ElementStackCreationCommand",
+              "Id": "!fragmentsecrethistories_111",
+              "EntityId": "fragmentsecrethistories",
+              "Quantity": 1,
+              "Mutations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+              },
+              "Illuminations": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+              },
+              "Defunct": false,
+              "IsShrouded": false,
+              "LifetimeRemaining": 0.0,
+              "Dominions": []
+            },
+            "PlacementAlreadyChronicled": true,
+            "Defunct": false,
+            "CurrentState": {
+              "$type": "SecretHistories.States.UnknownState, SecretHistories.Main"
+            }
+          }
+        ],
+        "Shrouded": false,
+        "PersistentSphereData": null
+      },
+      {
+        "$type": "SphereCreationCommand",
+        "OwnerSphereIdentifier": null,
+        "GoverningSphereSpec": {
+          "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+          "Label": "",
+          "ActionId": "",
+          "Description": "",
+          "Unique": false,
+          "Essential": {
+            "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+          },
+          "Required": {
+            "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+          },
+          "Forbidden": {
+            "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+          },
+          "IfAspectsPresent": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+          },
+          "Greedy": false,
+          "Consumes": false,
+          "Angels": [],
+          "FromPath": {
+            "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+            "Filter": null,
+            "Path": ""
+          },
+          "EnRouteSpherePath": {
+            "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+            "Filter": null,
+            "Path": "~/enroute"
+          },
+          "WindowsSpherePath": {
+            "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+            "Filter": null,
+            "Path": ""
+          },
+          "SphereType": "SecretHistories.Spheres.WindowsSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "AllowAnyToken": false,
+          "Id": "windows",
+          "Lever": ""
+        },
+        "Tokens": [],
+        "Shrouded": false,
+        "PersistentSphereData": null
+      },
+      {
+        "$type": "SphereCreationCommand",
+        "OwnerSphereIdentifier": null,
+        "GoverningSphereSpec": {
+          "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+          "Label": "",
+          "ActionId": "",
+          "Description": "",
+          "Unique": false,
+          "Essential": {
+            "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+          },
+          "Required": {
+            "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+          },
+          "Forbidden": {
+            "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+          },
+          "IfAspectsPresent": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+          },
+          "Greedy": false,
+          "Consumes": false,
+          "Angels": [],
+          "FromPath": {
+            "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+            "Filter": null,
+            "Path": ""
+          },
+          "EnRouteSpherePath": {
+            "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+            "Filter": null,
+            "Path": ""
+          },
+          "WindowsSpherePath": {
+            "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+            "Filter": null,
+            "Path": "~/windows"
+          },
+          "SphereType": "SecretHistories.Spheres.EnRouteSphere, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "AllowAnyToken": false,
+          "Id": "enroute",
+          "Lever": ""
+        },
+        "Tokens": [],
+        "Shrouded": false,
+        "PersistentSphereData": null
+      }
+    ],
+    "DealersTable": {
+      "$type": "PopulateDominionCommand",
+      "Identifier": "0",
+      "Spheres": [
+        {
+          "$type": "SphereCreationCommand",
+          "OwnerSphereIdentifier": null,
+          "GoverningSphereSpec": {
+            "$type": "SecretHistories.Entities.SphereSpec, SecretHistories.Main",
+            "Label": "",
+            "ActionId": "auctionedcommontomes",
+            "Description": "",
+            "Unique": false,
+            "Essential": {
+              "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+            },
+            "Required": {
+              "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+            },
+            "Forbidden": {
+              "$type": "SecretHistories.Core.AspectsDictionary, SecretHistories.Main"
+            },
+            "IfAspectsPresent": {
+              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+            },
+            "Greedy": false,
+            "Consumes": false,
+            "Angels": [],
+            "FromPath": {
+              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+              "Filter": null,
+              "Path": ""
+            },
+            "EnRouteSpherePath": {
+              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+              "Filter": null,
+              "Path": ""
+            },
+            "WindowsSpherePath": {
+              "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+              "Filter": null,
+              "Path": ""
+            },
+            "SphereType": "SecretHistories.Spheres.DrawPile, SecretHistories.Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "AllowAnyToken": false,
+            "Id": "auctionedcommontomes_draw",
+            "Lever": ""
+          },
+          "Tokens": [
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!locksmithsdream1_21",
+                "EntityId": "locksmithsdream1",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!textbooksanskrit_22",
+                "EntityId": "textbooksanskrit",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!truecompleteasclepiangreek_23",
+                "EntityId": "truecompleteasclepiangreek",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!textbookreason_24",
+                "EntityId": "textbookreason",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!textbookpassion_25",
+                "EntityId": "textbookpassion",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!travellingatnight2_26",
+                "EntityId": "travellingatnight2",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!introductiontohistories_27",
+                "EntityId": "introductiontohistories",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!waroftheroadscensored_28",
+                "EntityId": "waroftheroadscensored",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!humoursofagentleman_29",
+                "EntityId": "humoursofagentleman",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!onwhatiscontainedbysilvergreek_30",
+                "EntityId": "onwhatiscontainedbysilvergreek",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!debellismurorumlatin_31",
+                "EntityId": "debellismurorumlatin",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!skeletonsongs_32",
+                "EntityId": "skeletonsongs",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!burningofunburntgod_33",
+                "EntityId": "burningofunburntgod",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!sixlettersonnecessity_34",
+                "EntityId": "sixlettersonnecessity",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!dehoris1latin_35",
+                "EntityId": "dehoris1latin",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!textbooklatin_36",
+                "EntityId": "textbooklatin",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!locksmithsdream2_37",
+                "EntityId": "locksmithsdream2",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!textbookpassion_38",
+                "EntityId": "textbookpassion",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!textbookgreek_39",
+                "EntityId": "textbookgreek",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!orchidtransfigurations2latin_40",
+                "EntityId": "orchidtransfigurations2latin",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!stumm_41",
+                "EntityId": "stumm",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!apolloandmarsyas_42",
+                "EntityId": "apolloandmarsyas",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            },
+            {
+              "$type": "TokenCreationCommand",
+              "Location": {
+                "$type": "SecretHistories.UI.TokenLocation, SecretHistories.Main",
+                "LocalPosition": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0.0
+                },
+                "AtSpherePath": {
+                  "$type": "SecretHistories.Fucine.FucinePath, SecretHistories.Main",
+                  "Filter": null,
+                  "Path": "~/auctionedcommontomes_draw"
+                }
+              },
+              "HomeLocation": null,
+              "Payload": {
+                "$type": "ElementStackCreationCommand",
+                "Id": "!victoryofcrowns_43",
+                "EntityId": "victoryofcrowns",
+                "Quantity": 1,
+                "Mutations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib"
+                },
+                "Illuminations": {
+                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+                },
+                "Defunct": false,
+                "IsShrouded": false,
+                "LifetimeRemaining": 0.0,
+                "Dominions": []
+              },
+              "PlacementAlreadyChronicled": false,
+              "Defunct": false,
+              "CurrentState": {
+                "$type": "SecretHistories.States.TokenStates.DroppedInSphereState, SecretHistories.Main"
+              }
+            }
+          ],
+          "Shrouded": true,
+          "PersistentSphereData": null
+        }
+      ]
+    },
+    "TokensAtArbitraryPaths": []
+  },
+  "PopulateXamanekCommand": {
+    "$type": "PopulateXamanekCommand",
+    "CurrentItineraries": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[SecretHistories.Assets.Scripts.Application.Tokens.TravelItineraries.TokenItinerary, SecretHistories.Main]], mscorlib"
+    },
+    "CurrentEnviroFxCommands": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[SecretHistories.Commands.EnviroFxCommand, SecretHistories.Main]], mscorlib"
+    },
+    "CurrentSphereBlocks": []
+  },
+  "NotificationCommands": [],
+  "Version": {
+    "$type": "SecretHistories.Entities.VersionNumber, SecretHistories.Main",
+    "Version": "2025.4.e.5"
+  },
+  "IsFresh": false
+}
