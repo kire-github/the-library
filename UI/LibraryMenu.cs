@@ -14,11 +14,13 @@ namespace TheLibrary.UI
         private static GameObject entryTemplate;
         private static CanvasGroupFader menuFader;
         private static CanvasGroupFader modalFader;
-        
+        private static bool open = false;
+
         public static void Toggle()
-        {            
+        {
             if (menu == null) Build();
-            
+
+            open = !open;
             if (menuFader != null) menuFader.Toggle();
             if (modalFader != null) modalFader.Toggle();
         }
@@ -29,8 +31,8 @@ namespace TheLibrary.UI
                 return;
 
             LocalNexus nexus = Watchman.Get<LocalNexus>();
-            nexus.HideMenusEvent.RemoveListener(Toggle);
-            nexus.HideMenusEvent.AddListener(Toggle);
+            nexus.HideMenusEvent.RemoveListener(HandleHideMenus);
+            nexus.HideMenusEvent.AddListener(HandleHideMenus);
 
             GameObject achievementsPanel = GameObject.Find("OverlayWindow_Achievements");
             if (achievementsPanel == null)
@@ -45,7 +47,7 @@ namespace TheLibrary.UI
 
             UIUtils.ReplaceText(menu.transform, "TitleText", "The Library");
             UIUtils.ReplaceSprite(menu.transform, "TitleArtwork", "images/aspects/secrethistories");
-            UIUtils.ReplaceButtonOnClick( menu.transform.Find("CloseButton"), () =>
+            UIUtils.ReplaceButtonOnClick(menu.transform.Find("CloseButton"), () =>
             {
                 Toggle();
             });
@@ -56,6 +58,11 @@ namespace TheLibrary.UI
             BuildBookEntries();
 
             Plugin.Logger.LogWarning("Build method was called");
+        }
+
+        private static void HandleHideMenus()
+        {
+            if (open) Toggle();
         }
 
         private static void SetClassFields()
