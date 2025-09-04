@@ -28,14 +28,16 @@ namespace TheLibrary.Utils
             Plugin.ReadBooksConfig.Value = bookString;
         }
 
-        public static void MarkBookAsRead(string bookId)
+        public static bool MarkBookAsRead(string bookId)
         {
             LoadConfig();
             if (!string.IsNullOrEmpty(bookId) && !readBooks.Contains(bookId))
             {
                 readBooks.Add(bookId);
                 SaveConfig();
+                return true;
             }
+            return false;
         }
 
         public static HashSet<string> GetReadBooks()

@@ -5,6 +5,7 @@ using SecretHistories.UI;
 using SecretHistories.States;
 
 using TheLibrary.Utils;
+using SecretHistories.Services;
 
 namespace TheLibrary.Patches
 {
@@ -20,7 +21,11 @@ namespace TheLibrary.Patches
             string bookStudied = GetIdBookStudied(situation.RecipeId);
             if (bookStudied == null) return;
 
-            Morlands.MarkBookAsRead(bookStudied);
+            bool newEntryUnlocked = Morlands.MarkBookAsRead(bookStudied);
+            if (newEntryUnlocked)
+            {
+                Watchman.Get<Concursum>().ShowNotification(new NotificationArgs("The Library Remembers", "Another piece to add to my collection... (You unlocked a new entry in the Library)"));
+            }
         }
 
         private static string GetIdBookStudied(string recipeId)
