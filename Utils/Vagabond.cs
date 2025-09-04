@@ -5,10 +5,9 @@ namespace TheLibrary.Utils
 {
     public static class Vagabond
     {
-        private static Compendium compendium = Watchman.Get<Compendium>();
         public static string GetBookTitle(string bookId)
         {
-            Element book = compendium.GetEntityById<Element>(bookId);
+            Element book = Watchman.Get<Compendium>().GetEntityById<Element>(bookId);
             return book?.Label;
         }
 
@@ -17,15 +16,16 @@ namespace TheLibrary.Utils
             return GetBookDescription(bookId) + "\n\n" + GetRecipeTexts(bookId);
         }
 
+
         private static string GetBookDescription(string bookId)
         {
-            Element book = compendium.GetEntityById<Element>(bookId);
+            Element book = Watchman.Get<Compendium>().GetEntityById<Element>(bookId);
             return book?.Description;
         }
 
         private static string GetRecipeTexts(string bookId)
         {
-            foreach (Recipe recipe in compendium.GetEntitiesAsList<Recipe>())
+            foreach (Recipe recipe in Watchman.Get<Compendium>().GetEntitiesAsList<Recipe>())
             {
                 if (recipe.Requirements.ContainsKey(bookId))
                 {

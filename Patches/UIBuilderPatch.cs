@@ -10,8 +10,18 @@ namespace TheLibrary.Patches
     {
         public static void Postfix(MenuScreenController __instance)
         {
-            LibraryButton.Build();
-            LibraryMenu.Build();
+            if (__instance == null)
+                return;
+
+            try
+            {
+                LibraryButton.Build();
+                LibraryMenu.Build();
+            }
+            catch (System.Exception ex)
+            {
+                Plugin.Logger.LogError($"Error in UIBuilderPatch: {ex.Message}\n{ex.StackTrace}");
+            }
         }
     }
 }

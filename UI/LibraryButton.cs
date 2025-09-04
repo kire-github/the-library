@@ -15,6 +15,9 @@ namespace TheLibrary.UI
                 return;
 
             GameObject libraryButtonObj = Object.Instantiate(originalButton.gameObject, originalButton.transform.parent);
+            if (libraryButtonObj == null)
+                return;
+
             libraryButtonObj.name = "modded_Button_Library";
             libraryButtonObj.SetActive(true);
 

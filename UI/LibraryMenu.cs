@@ -16,7 +16,9 @@ namespace TheLibrary.UI
         private static CanvasGroupFader modalFader;
         
         public static void Toggle()
-        {
+        {            
+            if (menu == null) Build();
+            
             if (menuFader != null) menuFader.Toggle();
             if (modalFader != null) modalFader.Toggle();
         }
@@ -61,7 +63,7 @@ namespace TheLibrary.UI
             if (menu == null) return;
 
             Transform bookEntriesTransform = menu.transform.Find("ScrollContent/Viewport/Content/AchievementsHolder");
-            if (bookEntriesTransform != null)
+            if (bookEntriesTransform != null && bookEntriesTransform.childCount > 0)
             {
                 if (entryTemplate == null)
                 {
@@ -109,7 +111,15 @@ namespace TheLibrary.UI
             Sprite bookSprite = Resources.Load<Sprite>(spritePath);
             book.SetIcon(bookSprite);
 
-            book.SetUnlock(true);
+            Transform titleTransform = bookEntry.transform.Find("AchievementText/Title");
+            if (titleTransform != null)
+            {
+                TMPro.TextMeshProUGUI textComponent = titleTransform.GetComponent<TMPro.TextMeshProUGUI>();
+                if (textComponent != null)
+                {
+                    textComponent.color = Color.white;
+                }
+            }
 
             Transform descTransform = bookEntry.transform.Find("AchievementText/Description");
             if (descTransform != null)
